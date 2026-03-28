@@ -10,7 +10,7 @@ void help() {
   printf("Options:\n");
   printf("\t-i --ignore-file <filename> Specify which files to exclude\n\t\t(default = ~/.config/backbencher/.backupignore)\n");
   printf("\t-h --help \tPrint help\n");
-  printf("\t-v --verbose \tVerbose logging \n");
+  printf("\t-v --verbose \tVerbose logging\n");
   printf("\t-V --version \tPrint version\n");
 }
 
