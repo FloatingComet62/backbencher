@@ -169,4 +169,5 @@ void backup(char* target, char* ignore_instructions, int VERBOSE) {
     }
     closedir(dir_ptr);
   }
+  free(directories);
 }
