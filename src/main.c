@@ -3,15 +3,17 @@
 #define VERSION "1.0"
 
 void help() {
-  printf("Backup your files\n");
-  printf("Usage: Backbencher [OPTIONS] [input]\n");
-  printf("Arguments:\n");
-  printf("\t[input]... The path of the folder to backup\n");
-  printf("Options:\n");
-  printf("\t-i --ignore-file <filename> Specify which files to exclude\n\t\t(default = ~/.config/backbencher/.backupignore)\n");
-  printf("\t-h --help \tPrint help\n");
-  printf("\t-v --verbose \tVerbose logging\n");
-  printf("\t-V --version \tPrint version\n");
+  printf(
+"Backup your files\n"
+"Usage: Backbencher [OPTIONS] [input]\n"
+"Arguments:\n"
+"\t[input]... The path of the folder to backup\n"
+"Options:\n"
+"\t-i --ignore-file <filename> Specify which files to exclude\n\t\t(default = ~/.config/backbencher/.backupignore)\n"
+"\t-h --help \tPrint help\n"
+"\t-v --verbose \tVerbose logging\n"
+"\t-V --version \tPrint version\n"
+  );
 }
 
 void assign(char* to, char* from) {

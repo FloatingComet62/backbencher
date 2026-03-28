@@ -1,10 +1,11 @@
 ## Backbencher
 
 Backup your files
+Currently only UNIX compliant
 
 ### Usage
 ```bash
-Backbencher [OPTIONS] [input]
+backbencher [OPTIONS] [input]
 ```
 
 ### Arguments
