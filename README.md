@@ -1,24 +1,22 @@
-# Backbencher
+## Backbencher
 
 Backup your files
 
-Usage:
-  Backbencher [OPTIONS] [input]
+### Usage
+```bash
+Backbencher [OPTIONS] [input]
+```
 
-Arguments:
-  [input]...
-      The path of the folder to backup
+### Arguments
+- `[input]...`  
+  The path of the folder to backup
 
-Options:
-  -i, --ignore-file <filename>
-      Specify which files to exclude
-      (default: ~/.config/backbencher/.backupignore)
+### Options
+```bash
+-i, --ignore-file <filename>   Specify which files to exclude
+                               (default: ~/.config/backbencher/.backupignore)
 
-  -h, --help
-      Print help
-
-  -v, --verbose
-      Verbose logging
-
-  -V, --version
-      Print version
+-h, --help                     Print help
+-v, --verbose                  Verbose logging
+-V, --version                  Print version
+```
